@@ -515,7 +515,7 @@ WHERE quantity = 0
 ------------------------------------------
 ------------------------------------------
 ------------------------------------------
---4. Cursor care sa execute o procedura stocata
+--4. Cursor which execute a stored procedure
 	
 CREATE PROCEDURE updateBooksPrice (@bookName VARCHAR(50) OUTPUT)
 AS 
